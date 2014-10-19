@@ -132,8 +132,6 @@
 		3763CAFB120B6EB700733BAF /* CommandDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandDispatcher.m; sourceTree = "<group>"; };
 		3763CB62120BCA8A00733BAF /* CommandController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandController.h; sourceTree = "<group>"; };
 		3763CB63120BCA8A00733BAF /* CommandController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandController.m; sourceTree = "<group>"; };
-		376511771172C3F8000B8A95 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_CN; path = zh_CN.lproj/UI.xib; sourceTree = "<group>"; };
-		376511781172C405000B8A95 /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = zh_CN; path = zh_CN.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37753DCB10E5639C00A21D89 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		37753DCC10E5639C00A21D89 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		37753DCF10E563E600A21D89 /* UdpNotificationListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpNotificationListener.h; sourceTree = "<group>"; };
@@ -252,6 +250,10 @@
 		37E89D55110BF9FD006CBE71 /* SoundVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundVolume.m; sourceTree = "<group>"; };
 		37E89D81110BFBF5006CBE71 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		37F2E300117AE00A00A267E2 /* pt_BR */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = pt_BR; path = pt_BR.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5B97036519F33696000CE8D2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5B97036619F33696000CE8D2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/UI.xib"; sourceTree = "<group>"; };
+		5B97036919F33710000CE8D2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		5B97036A19F33758000CE8D2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hant"; path = "zh-Hant.lproj/UI.xib"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MacDroidNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacDroidNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D4B7F6169E199000C81D10 /* Ringer.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Ringer.aiff; sourceTree = "<group>"; };
@@ -563,6 +565,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MacDroidNotifier" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -576,6 +580,9 @@
 				zh,
 				zh_CN,
 				ru,
+				"zh-Hant-TW",
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* MacDroidNotifier */;
 			projectDirPath = "";
@@ -698,7 +705,8 @@
 				1DDD58150DA1D0A300B32029 /* English */,
 				37E33B53117FA44600ACC1AE /* pt_BR */,
 				37E33B51117F9C3400ACC1AE /* ru */,
-				376511771172C3F8000B8A95 /* zh_CN */,
+				5B97036619F33696000CE8D2 /* zh-Hans */,
+				5B97036A19F33758000CE8D2 /* zh-Hant */,
 			);
 			name = UI.xib;
 			sourceTree = "<group>";
@@ -709,7 +717,8 @@
 				378BBCE910E97A66008D07A1 /* English */,
 				37F2E300117AE00A00A267E2 /* pt_BR */,
 				371B4A05117A0A6D00A3AF2B /* ru */,
-				376511781172C405000B8A95 /* zh_CN */,
+				5B97036519F33696000CE8D2 /* zh-Hans */,
+				5B97036919F33710000CE8D2 /* zh-Hant */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
